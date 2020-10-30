@@ -14,7 +14,6 @@
 	### Pointers VS Reference
 	https://www.geeksforgeeks.org/is-there-any-concept-of-pointers-in-java/#:~:text=C%2FC%2B%2B%20allows%20pointer%20arithmetic,to%20point%20to%20arbitrary%20addresses.&text=In%20Java%2C%20a%20reference%20points%20to%20one%20thing%20only.
 
-		
 4) It supports:- 
      1) Constructors 
      2) Inheritance	 
@@ -26,9 +25,14 @@
    1) Static Class and Static Class members
    2) To represent the concept of <b><i><a href="singleton">Singleton Pattern</a></i></b> <br/>
     
+6) #### Classes and Structs in C#
+    A <b><i>class</i></b> is a user-defined blueprint or prototype from which objects are created. Basically, a class combines the fields and methods(member function which defines actions) into a single unit.<br/>
+	A <b><i>structure</i></b> is a collection of variables of different data types under a single unit. It is almost similar to a class because both are user-defined data types and both hold a bunch of different data types.<br/>
+	for more info: https://www.geeksforgeeks.org/difference-between-class-and-structure-in-c-sharp/
 
 
-   
+<br/> <hr/>
+
 ## Methods
 1) method overloading ==> same name diff parameters
 2) #### What if you have varying number of paramters:-
@@ -60,6 +64,7 @@
 	<i>Note: Only use in a special circumstances</i>
 	<br/>
 
+<br/> <hr/>
 
 # Object Oriented Programming Concepts (OOP)
 1) ### Inheritance: 
@@ -105,6 +110,8 @@
 4) Inner Classes (Basically Nested classes)
    5) 
 	 
-
-
-
+<br/><hr/>
+5) Topics that needs to be covered
+   1) Anonymous function
+   2) Lambda expression
+   3) Arrow operator

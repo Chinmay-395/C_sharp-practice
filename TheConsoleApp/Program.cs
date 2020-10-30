@@ -59,7 +59,8 @@ namespace TheConsoleApp
                     case 3:
                         //  --------------------- Tutorial --------------------- //
                         Console.WriteLine("Tutorial \n" +
-                            "Opt-1: Multiple-Inheritance \n");
+                            "Opt-1: Multiple-Inheritance \n" +
+                            "Opt-2: Structure in C# \n");
                         int choice = Int16.Parse(Console.ReadLine());
                         switch (choice)
                         {
@@ -67,6 +68,30 @@ namespace TheConsoleApp
                                 var tryingMultipleInheritance = new MultipleInheritancExample();
                                 tryingMultipleInheritance.AMethod();
                                 tryingMultipleInheritance.BMethod();
+                                break;
+                            case 2:
+                                /* in the below syntax we are using default constructor
+                                 * and declaring the properties of the elements inside the
+                                 * structure.
+                                 */
+                                Customer C1 = new Customer(101, "Mark");
+                                C1.PrintDetails();
+                                Customer C2 = new Customer();
+                                C2.ID = 102;     //comment this, for below explaination 
+                                C2.Name = "John";//comment this, for below explaination 
+                                C2.PrintDetails();
+                                /********** What if we dont declare the properties ********* 
+                                 *     Ans ``` Id = 0 && Name= ```
+                                 *          basically these are default values
+                                 */
+                                //Another syntax for structure intialization
+                                //it is called object initializer syntax
+                                Customer C3 = new Customer
+                                {
+                                    ID = 103,
+                                    Name = "Rob"
+                                };
+                                C3.PrintDetails();
                                 break;
                         }
                         
