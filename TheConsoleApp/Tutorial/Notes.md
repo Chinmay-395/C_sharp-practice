@@ -1,4 +1,4 @@
-﻿## Classes and Objects
+﻿# Classes and Objects
 
 1) Explaination: https://www.geeksforgeeks.org/c-sharp-class-and-object/
 2) Important:- <br/>
@@ -16,17 +16,16 @@
 
 		
 4) It supports:- <br/>
-     1) <h3>Constructors </h3>
-     2) <h3>Inheritance	 </h3>
-     3) <h3>Encapsulation</h3>
-     4) <h3>Abstaction</h3>
+     1) Constructors 
+     2) Inheritance	 
+     3) Encapsulation
+     4) Abstaction
 
 
 5) #### Static Keyword
    1) Static Class and Static Class members
    2) To represent the concept of <b><i><a href="singleton">Singleton Pattern</a></i></b> <br/>
-   2)  
-   
+    
 
 
    
@@ -62,9 +61,13 @@
 	<br/>
 
 
-## Object Oriented Programming Concepts (OOP)
-1) Inheritance: (Somewhat done)
-2) Encapsulation:
+# Object Oriented Programming Concepts (OOP)
+1) ### Inheritance: 
+	 1) <b><i>Note:</i></b> C# only supports single inheritance and not multiple.
+	     Because of "Diamond Problem".(In python language 'super' keyword is used to solve this problem)
+	 2) <b>BUT<b> we can still do multiple inheritance, we need to use 
+        [interface](#interface)
+2) ### Encapsulation:
      1) Hiding details and providing common interfaces is called encapsulation
      2) Sub-Topics
           1) Getters and Setters
@@ -74,14 +77,34 @@
 						<b>Getters</b> to fetch that variable and <b>Setters</b> 
 						to mutate the value of that variable
 				
-3) Abstraction:
+3) ### Abstraction:
      1) the concept of encapsulation is used to create abstract datatypes 
 		 that should be possible to modify only through their external interface
+	 2) Sub-Topics
+		   1) ##### <a id"interface"><i>Interface</i></a>
+				1) An interface is a completely "abstract class", which can only contain abstract methods and properties (with empty bodies)
+				2) A language construct that is similar to a class (in terms of syntax)
+					but is fundamentally different.
+				3) It used to build loosely-coupled applications.
+				4) by convention we name the interface starting with 'I'.
+				5) Syntax:
+					```
+		   			// interface
+		   			public interface Animal 
+		   			{
+		   				void animalSound(); // interface method (does not have a body)
+		   				void run(); // interface method (does not have a body)
+		   			}
+					```			
+				6) We need to create loosely-coupled applications, since if we need
+					to change some elements of that classes then it has minimal
+		   			impact on other classes
 	
 	### Abstraction vs Encapsulation
 
 4) Inner Classes (Basically Nested classes)
    5) 
 	 
+
 
 
