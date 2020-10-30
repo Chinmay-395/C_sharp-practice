@@ -104,7 +104,22 @@
 				6) We need to create loosely-coupled applications, since if we need
 					to change some elements of that classes then it has minimal
 		   			impact on other classes
-	
+			2) ##### Abstract class
+				1) An abstact class is incomplete and hence cannot be instantiated
+                2) Abstract class can only be used as base class
+                3) Abstract class cannot be sealed
+                4) An abstract class may contain abstract members(methods,properties, indexers,events) but not mandatory
+                5) <b><i>Note</i></b> A non-Abstract class derived from an abstract class must provide implementation for all inherited abstract memeber
+                6) If a class inherits an abstract class, then;
+                   7) Provide implementations for all the abstract members inheritde from base abstract
+                   7) If the class does not wish to provide implementation for all the abstract members
+						inherited from abstract class, then the class has to be marked as abstract.
+			3) ###### Abstract classes vs Interfaces
+				1) Abstract classes can have implementations for some of its members(Methods), but the interface can't have implementation for any of its memeber
+                2) Interfaces cannot have fields whereas an abstract class can have fields.
+                3) An interface can inherit from another interface only and cannot inherit from an abstract class, whereas an abstract class can inherit from another abstract class or another interface
+                4) A class inherit from multiple interfaces at the same time, whereas a class cannot inherit from multiple classes at the same time.
+                5) Abstract class members can have access modifiers whereas interface members cannot have access modifiers.
 	### Abstraction vs Encapsulation
 
 4) Inner Classes (Basically Nested classes)

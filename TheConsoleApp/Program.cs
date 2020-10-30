@@ -93,6 +93,19 @@ namespace TheConsoleApp
                                 };
                                 C3.PrintDetails();
                                 break;
+                            case 3:
+                                //One way of initializing abstract class
+                                Abstract_class_related P = new Abstract_class_related();
+                                P.Print();
+                                P.AnotherMethod();
+                                //Another way of initialzing abstract class
+                                Abstract_className_Customer P_new = new Abstract_class_related();
+                                P_new.Print();
+                                /* The above code works because,
+                                 * A parent class reference variable can point to a
+                                 * derived class object.
+                                 */
+                                break;
                         }
                         
                         break;
