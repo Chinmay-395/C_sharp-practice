@@ -12,10 +12,10 @@
 	for more info: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/unsafe-code-pointers/#:~:text=To%20maintain%20type%20safety%20and,which%20pointers%20can%20be%20used.&text=If%20you%20use%20unsafe%20code,security%20risks%20or%20pointer%20errors.
 
 	### Pointers VS Reference
-		
+	https://www.geeksforgeeks.org/is-there-any-concept-of-pointers-in-java/#:~:text=C%2FC%2B%2B%20allows%20pointer%20arithmetic,to%20point%20to%20arbitrary%20addresses.&text=In%20Java%2C%20a%20reference%20points%20to%20one%20thing%20only.
 
 		
-4) It supports:- <br/>
+4) It supports:- 
      1) Constructors 
      2) Inheritance	 
      3) Encapsulation
@@ -65,8 +65,8 @@
 1) ### Inheritance: 
 	 1) <b><i>Note:</i></b> C# only supports single inheritance and not multiple.
 	     Because of "Diamond Problem".(In python language 'super' keyword is used to solve this problem)
-	 2) <b>BUT<b> we can still do multiple inheritance, we need to use 
-        [interface](#interface)
+	 2) <b>BUT</b> we can still do multiple inheritance, we need to use [Interfaces](#interface).
+         
 2) ### Encapsulation:
      1) Hiding details and providing common interfaces is called encapsulation
      2) Sub-Topics
@@ -81,7 +81,7 @@
      1) the concept of encapsulation is used to create abstract datatypes 
 		 that should be possible to modify only through their external interface
 	 2) Sub-Topics
-		   1) ##### <a id"interface"><i>Interface</i></a>
+		   1) ##### <a href="interface"><i>Interface</i>.</a>
 				1) An interface is a completely "abstract class", which can only contain abstract methods and properties (with empty bodies)
 				2) A language construct that is similar to a class (in terms of syntax)
 					but is fundamentally different.

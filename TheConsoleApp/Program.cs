@@ -1,6 +1,6 @@
 ﻿using System;
 using TheConsoleApp.DataStructure;
-//using TheConsoleApp.
+using TheConsoleApp.Tutorial;
 
 namespace TheConsoleApp
 {
@@ -14,14 +14,15 @@ namespace TheConsoleApp
             {
                 Console.WriteLine("Option-1: Data Structure \n" +
                                   "Option-2: Algorithms \n" +
-                                  "OPtion-3: Coding Problems \n" +
-                                  "Option-4: Sub-Console-App \n" +
-                                  "Option-5: Quit \n");
+                                  "OPtion-3: Tutorial \n" +
+                                  "Option-4: Coding Problems \n" +
+                                  "Option-5: Sub-Console-App \n" +
+                                  "Option-6: Quit \n");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
                     case 1:
-                        Console.WriteLine("Case-1");
+                        Console.WriteLine("Data Structure");
                         //LinkedListProgram linkedListProgram = new LinkedListProgram();
                         //LinkedListProgram.LinkedList linkedList = new LinkedListProgram.LinkedList();
                         ////LinkedList linkedList = new LinkedList();
@@ -52,16 +53,32 @@ namespace TheConsoleApp
                         
                         break;
                     case 2:
-                        Console.WriteLine("Case-2");
+                        Console.WriteLine("Algorithms");
 
                         break;
                     case 3:
-                        Console.WriteLine("Case-3");
+                        //  --------------------- Tutorial --------------------- //
+                        Console.WriteLine("Tutorial \n" +
+                            "Opt-1: Multiple-Inheritance \n");
+                        int choice = Int16.Parse(Console.ReadLine());
+                        switch (choice)
+                        {
+                            case 1:
+                                var tryingMultipleInheritance = new MultipleInheritancExample();
+                                tryingMultipleInheritance.AMethod();
+                                tryingMultipleInheritance.BMethod();
+                                break;
+                        }
+                        
                         break;
                     case 4:
                         Console.WriteLine("Case-2");
                         break;
                     case 5:
+                        needIGoOn = false;
+                        Console.WriteLine("You Quit your Main Project");
+                        break;
+                    case 6:
                         needIGoOn = false;
                         Console.WriteLine("You Quit your Main Project");
                         break;
