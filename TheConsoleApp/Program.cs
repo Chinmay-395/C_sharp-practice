@@ -1,6 +1,6 @@
 ﻿using System;
 using TheConsoleApp.DataStructure;
-
+//using TheConsoleApp.
 
 namespace TheConsoleApp
 {
@@ -34,11 +34,26 @@ namespace TheConsoleApp
                         //linkedList.AddNodeToFront(4);
                         //linkedList.PrintList();
                         //Console.WriteLine("\n --------------- \n we are done");
-                        BaseClass callThisClass = new BaseClass();
-                        callThisClass.BaseMethod();
+                        Console.WriteLine("We now have \n" +
+                            "1)LinkedList (Custom one without collections) \n" +
+                            "2) Array  \n");
+                        int x = Int16.Parse(Console.ReadLine());
+                        switch (x)
+                        {
+                            case 1:
+                                BaseClass callThisClass = new BaseClass();
+                                callThisClass.BaseMethod();
+                                break;
+                            case 2:
+                                var array_variable = new Array_Related();
+                                array_variable.someFunc();
+                                break;
+                        }
+                        
                         break;
                     case 2:
                         Console.WriteLine("Case-2");
+
                         break;
                     case 3:
                         Console.WriteLine("Case-3");
