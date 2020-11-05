@@ -21,6 +21,7 @@ namespace TheConsoleApp
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
+                    #region Data-Structure code practice
                     case 1:
                         Console.WriteLine("Data Structure");
                         //LinkedListProgram linkedListProgram = new LinkedListProgram();
@@ -50,12 +51,13 @@ namespace TheConsoleApp
                                 array_variable.someFunc();
                                 break;
                         }
-                        
                         break;
+                    #endregion
+                    #region Algorithms practice
                     case 2:
                         Console.WriteLine("Algorithms");
-
                         break;
+                    #endregion
                     case 3:
                         //  --------------------- Tutorial --------------------- //
                         Console.WriteLine("Tutorial \n" +
@@ -106,16 +108,29 @@ namespace TheConsoleApp
                                  * derived class object.
                                  */
                                 break;
+                            case 4:
+                                Varying_Constructor_technique cust_var = new Varying_Constructor_technique();
+                                Console.WriteLine(cust_var.Id);
+                                Console.WriteLine(cust_var.Name);
+                                var customer_ = new Varying_Constructor_technique(1, "Johnson");
+                                Console.WriteLine(customer_.Id);
+                                Console.WriteLine(customer_.Name);
+                                break;
                         }
                         
                         break;
+                    #region Case 4 is about Coding Problem solving
                     case 4:
                         Console.WriteLine("Case-2");
                         break;
+                    #endregion
+
+                    #region Case 5 is about Custom-Console-App
                     case 5:
                         needIGoOn = false;
                         Console.WriteLine("You Quit your Main Project");
                         break;
+                    #endregion
                     case 6:
                         needIGoOn = false;
                         Console.WriteLine("You Quit your Main Project");

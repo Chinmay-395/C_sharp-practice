@@ -130,3 +130,5 @@
    1) Anonymous function
    2) Lambda expression
    3) Arrow operator
+   4) Type-Casting
+
