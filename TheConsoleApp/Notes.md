@@ -132,3 +132,19 @@
    3) Arrow operator
    4) Type-Casting
 
+
+
+6) ### Collections in C#
+    1) #### Collections
+	   THis allows c# to have access to datatypes such as 
+        list and dictionaries.[similar to python list and dictionary]
+		1)ArrayList <--> List
+		2)Dictionary <--> Dictionary
+		3)Queue (Data-Structure)
+			1)Enqueue [Basically adds a value in a queue]
+			2)Dequeue [Basically removing the first item & returns that value]
+			3)Peek
+			
+    2) #### Generics
+
+		

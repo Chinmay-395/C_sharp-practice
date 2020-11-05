@@ -66,11 +66,15 @@ namespace TheConsoleApp
                         int choice = Int16.Parse(Console.ReadLine());
                         switch (choice)
                         {
+                            #region Multiple inheritence tutrial
                             case 1:
                                 var tryingMultipleInheritance = new MultipleInheritancExample();
                                 tryingMultipleInheritance.AMethod();
                                 tryingMultipleInheritance.BMethod();
                                 break;
+                            #endregion
+
+                            #region Structs tutorial
                             case 2:
                                 /* in the below syntax we are using default constructor
                                  * and declaring the properties of the elements inside the
@@ -95,6 +99,9 @@ namespace TheConsoleApp
                                 };
                                 C3.PrintDetails();
                                 break;
+                            #endregion
+
+                            #region Abstract Classes
                             case 3:
                                 //One way of initializing abstract class
                                 Abstract_class_related P = new Abstract_class_related();
@@ -108,6 +115,9 @@ namespace TheConsoleApp
                                  * derived class object.
                                  */
                                 break;
+                            #endregion
+
+                            #region Class Constructors
                             case 4:
                                 Varying_Constructor_technique cust_var = new Varying_Constructor_technique();
                                 Console.WriteLine(cust_var.Id);
@@ -116,8 +126,17 @@ namespace TheConsoleApp
                                 Console.WriteLine(customer_.Id);
                                 Console.WriteLine(customer_.Name);
                                 break;
+                            #endregion
+
+                            #region Collections Library
+                            case 5:
+                                CollectionsClass c_class = new CollectionsClass();
+                                c_class.someFunc();
+                                break;
+
+                            #endregion
                         }
-                        
+
                         break;
                     #region Case 4 is about Coding Problem solving
                     case 4:
