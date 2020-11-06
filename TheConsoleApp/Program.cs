@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using TheConsoleApp.DataStructure;
 using TheConsoleApp.Tutorial;
 
@@ -147,6 +148,29 @@ namespace TheConsoleApp
                                 S1.Email = "chinmay@gmail.com";
                                 S1.City = "Mumbai";
                                 Console.WriteLine("{0} {1} {2} ",S1.Name,S1.Id,S1.Email);
+                                break;
+                            #endregion
+
+                            #region Generics Library
+                            case 7:
+                                List<Animal> animailList = new List<Animal>();
+                                animailList.Add(new Animal() { Name = "Doug" });
+                                animailList.Add(new Animal() { Name = "Paul" });
+                                animailList.Add(new Animal() { Name = "Sally" });
+
+                                animailList.Insert(1, new Animal() { Name = "Steve" });
+
+                                animailList.RemoveAt(1);
+
+                                Console.WriteLine("Number of animals {0}",animailList.Count);
+
+                                foreach(var a in animailList)
+                                {
+                                    Console.WriteLine(a.Name);
+                                }
+
+                                int ab = 5, ac = 5;
+                                Animal.GetSum(ref ab, ref ac);
                                 break;
                             #endregion
                         }
