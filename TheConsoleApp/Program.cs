@@ -138,6 +138,17 @@ namespace TheConsoleApp
                                 break;
 
                             #endregion
+
+                            #region Getters and Setter property code
+                            case 6:
+                                Student S1 = new Student();
+                                S1.Id = 101;
+                                S1.Name = "Chinmay";
+                                S1.Email = "chinmay@gmail.com";
+                                S1.City = "Mumbai";
+                                Console.WriteLine("{0} {1} {2} ",S1.Name,S1.Id,S1.Email);
+                                break;
+                            #endregion
                         }
 
                         break;

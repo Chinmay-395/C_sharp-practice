@@ -81,6 +81,8 @@
 						modify them from outside of that class, we use 
 						<b>Getters</b> to fetch that variable and <b>Setters</b> 
 						to mutate the value of that variable
+				2) why use properties which are public when you can use public fields instead?<br/>
+                   Ans: Using property you can achieve read or write only but using public fields you can't and also properties can be overridden but fields can't be.
 				
 3) ### Abstraction:
      1) the concept of encapsulation is used to create abstract datatypes 
