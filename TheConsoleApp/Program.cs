@@ -131,7 +131,10 @@ namespace TheConsoleApp
                             #region Collections Library
                             case 5:
                                 CollectionsClass c_class = new CollectionsClass();
-                                c_class.someFunc();
+                                c_class.FuncForArrayList();
+                                c_class.FuncForDictionary();
+                                c_class.FuncForQueue();
+                                c_class.FuncForStacks();
                                 break;
 
                             #endregion
