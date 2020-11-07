@@ -53,6 +53,12 @@ namespace TheConsoleApp.Tutorial
 
         public string City { get; set; }
         public string Email { get; set; }
+
+        //THe constructor implementations
+        //public Student(int Id_field)
+        //{//, string Name_field, string City_field, string Email_field
+        //    this.Id = Id_field;
+        //}
     }
 
     class GettersAndSetter

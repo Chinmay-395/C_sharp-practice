@@ -147,7 +147,17 @@ namespace TheConsoleApp
                                 S1.Name = "Chinmay";
                                 S1.Email = "chinmay@gmail.com";
                                 S1.City = "Mumbai";
-                                Console.WriteLine("{0} {1} {2} ",S1.Name,S1.Id,S1.Email);
+                                Console.WriteLine("{0} {1} {2} ", S1.Name, S1.Id, S1.Email);
+                                /* If you are using a constructor then initilize the value of
+                                 * the setter method with value passed during object creation
+                                 * ie basically;
+                                 * 1)name of class variable is ```private int _id```
+                                 * 2)name of setter method is  ```public int Id ```
+                                 * 3) we can assign the value for our setter method using the constructor
+                                 *      ```this.Id = <value passed in the constructor>```
+                                 */
+                                // Student S1 = new Student();
+                                //Console.WriteLine("{0} ", S1.Id);
                                 break;
                             #endregion
 

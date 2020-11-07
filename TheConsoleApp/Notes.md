@@ -125,7 +125,11 @@
 	### Abstraction vs Encapsulation
 
 4) Inner Classes (Basically Nested classes)
-   5) 
+
+5) ##### data-type
+   1)<b>"Object"</b> :Base type of all other types. <br/>
+   2)<b>"var"</b> : Assumes the type based on the type you initialize.
+
 	 
 <br/><hr/>
 5) Topics that needs to be covered
@@ -133,20 +137,23 @@
    2) Lambda expression
    3) Arrow operator
    4) Type-Casting
+   5) Find out what topics are depricated 
 
 
 
 6) ### Collections in C#
-    1) #### Collections
-	   THis allows c# to have access to datatypes such as 
-        list and dictionaries.[similar to python list and dictionary]
-		1)ArrayList <--> List
-		2)Dictionary <--> Dictionary
-		3)Queue (Data-Structure)
-			1)Enqueue [Basically adds a value in a queue]
-			2)Dequeue [Basically removing the first item & returns that value]
-			3)Peek
+    1) #### Collections 
+	   THis allows c# to have access to datatypes such as <br/>
+        list and dictionaries.[similar to python list and dictionary]<br/>
+		1)ArrayList <--> List <br/>
+		2)Dictionary <--> Dictionary<br/>
+		3)Queue (Data-Structure)<br/>
+			1)Enqueue [Basically adds a value in a queue]<br/>
+			2)Dequeue [Basically removing the first item & returns that value]<br/>
+			3)Peek<br/>
+		4)<b>Note:</b> (Tim-Corey says Collections are depricated) because in arrayList we can associate different types of data-types.<br/>
 			
     2) #### Generics
+       1) generics are similar to collection but with Types.
 
 		
